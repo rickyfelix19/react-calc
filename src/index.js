@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+// import App from './App'
+
+import Table from './components/App'
 import './index.css';
 
-const myfirstelement = <h1> Hello React! </h1>
-
-ReactDOM.render(myfirstelement, document.getElementById('root'));
+ReactDOM.render(<Table />, document.getElementById('root'))
